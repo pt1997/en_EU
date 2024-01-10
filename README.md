@@ -8,14 +8,16 @@ It uses €, the same thousand separators as English, 24 Clock, YYYY-MM-DD
 
 # how to use:
 
-* download the en_EU file and move it to /usr/share/i18n/locales/en_EU
+* download the [en_EU](https://raw.githubusercontent.com/pt1997/en_EU/main/en_EU) file and move it to /usr/share/i18n/locales/en_EU
 
-* install the glibc-locale-source or locales package using your package manager (depending on your distro) 
+* install the `glibc-locale-source` or `locales` package using your package manager (depending on your distro) 
 
-* run the following:
-*   sudo localedef -i en_EU -f UTF-8 en_EU.UTF-8
-*   localectl set-locale en_EU.UTF-8
-*   reboot
+* run the following commands:
+  ```
+  sudo localedef -i en_EU -f UTF-8 en_EU.UTF-8
+  localectl set-locale en_EU.UTF-8
+  reboot
+  ```
 
 # why
 most programs are written in with English in mind. All English locales have their problems for me and apparently many people
