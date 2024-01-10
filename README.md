@@ -1,5 +1,5 @@
 # en_EU
-Inofficial English locale for European (en-150)
+Inofficial English locale for European (en_150)
 
 this is intended for Linux users that want to use the English language.
 
