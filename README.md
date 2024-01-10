@@ -7,6 +7,7 @@ It uses €, the same thousand separators as English, 24 Clock, YYYY-MM-DD.
 
 You should probably use the current version of https://github.com/wyx227/glibc/blob/f9a3c7691852f2521439a94e1c1a1f8309a8655a/localedata/locales/en_EU
 
+Please let me know if you have any ideas to improve this or if you know of other existing en_EU/en_150 locales
 
 # how to use:
 
