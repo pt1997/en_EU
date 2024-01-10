@@ -3,12 +3,14 @@ Inofficial English locale for European (en_150)
 
 this is intended for Linux users that want to use the English language.
 
-It uses €, the same thousand separators as English, 24 Clock, YYYY-MM-DD
+It uses €, the same thousand separators as English, 24 Clock, YYYY-MM-DD.
+
+You should probably use the current version of https://github.com/wyx227/glibc/blob/f9a3c7691852f2521439a94e1c1a1f8309a8655a/localedata/locales/en_EU
 
 
 # how to use:
 
-* download the [en_EU](https://raw.githubusercontent.com/pt1997/en_EU/main/en_EU) file and move it to /usr/share/i18n/locales/en_EU
+* download the en_EU file you want to use and move it to /usr/share/i18n/locales/en_EU
 
 * install the `glibc-locale-source` or `locales` package using your package manager (depending on your distro) 
 
